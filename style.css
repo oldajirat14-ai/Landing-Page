@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0 10px 0;
+    padding: 20px 0 10px 0;
 }
 
 .header .logo{
@@ -95,4 +95,32 @@
     font-size: 15px;
     font-weight: 900;
     border: none;
+}
+
+/* MAIN */
+
+.main-section{
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.info-section img{
+    width: 200px;
+    height: 180px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info-texts{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 50px 0px 50px 0px;
+    color: #1F2937;
 }
