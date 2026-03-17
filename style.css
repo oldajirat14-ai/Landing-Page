@@ -49,8 +49,7 @@
 /* HERO */
 
 .hero{
-    height: 50vh;
-    margin-top: 100px;
+    padding: 150px 0px;
 }
 
 .hero-parts{
@@ -150,4 +149,40 @@
     padding-top:  5px;
     align-self: flex-end;
     font-weight: 900;
+}
+
+/* CALL SECTION */
+
+.call-section{
+    background-color: #fff;
+    padding: 100px 0px 100px 0px;
+}
+
+.call-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 50px 30px 50px;
+    margin: 0 auto;
+    max-width: 1020px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.left-box h1{
+    font-size: 18px;
+}
+
+.left-box p{
+    font-size: 12px;
+}
+
+.right-box button{
+    margin: 0;
+    padding: 4px 20px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #fff;
+    border: 1px solid #fff;
 }
