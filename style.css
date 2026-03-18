@@ -114,6 +114,10 @@
     gap: 40px;
 }
 
+.text{
+    max-width: 200px;
+}
+
 .title{
     font-size: 32px;
     font-weight: 900;
@@ -185,4 +189,19 @@
     background-color: #3882F6;
     color: #fff;
     border: 1px solid #fff;
+}
+
+/* FOOTER */
+
+.footer-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 25px 0 25px 0;
+}
+
+.footer-text{
+    color: #fff;
+    font-size: 14px;
 }
